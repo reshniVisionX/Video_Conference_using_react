@@ -1,0 +1,75 @@
+:root {
+    /* Light Theme */
+    --background-color: #f8f8f8;
+    --text-color: #000000;
+    --button-bg-color: #e7e0e0;
+
+    /* Dark Theme */
+    --dark-background-color: #0c0c0c;
+    --dark-text-color: #fff;
+    --dark-button-bg-color: #555;
+}
+
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.myId {
+    background: var(--button-bg-color);
+	text-align: center;
+}
+
+
+.dark-theme {
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+    --button-bg-color: var(--dark-button-bg-color);
+    background: var(--dark-background-color); 
+}
+
+h1{
+	color: var(--text-color);
+}
+.container {
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+}
+
+.myId {
+    margin-right: 5rem;
+    border-radius: 5px;
+    background: var(--button-bg-color);
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.call-button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.video-container {
+    position: relative;
+    margin-top: 100px !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.video1 {
+    margin-right: 20px;
+}
+
+.video2 {
+    margin-left: 20px;
+}
+
+.caller {
+    text-align: center;
+    color: var(--text-color);
+}
